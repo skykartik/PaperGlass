@@ -1,0 +1,40 @@
+PaperGlass - Privacy Policy and Terms
+Version 2.0
+
+PaperGlass makes your Windows display look like e-ink or paper. It is designed to work entirely on
+your own computer.
+
+1. What PaperGlass does not do
+   - It does not connect to the internet. It has no accounts, no analytics, no telemetry and no ads.
+   - It does not collect, upload or share any information about you or your computer.
+   - It does not capture, record or read what is on your screen. It only changes how colours are
+     displayed and draws a transparent layer (paper texture, lamp glow) on top.
+   - It does not log your keystrokes. Global hotkeys are registered with Windows, which tells
+     PaperGlass only when one of your chosen shortcuts is pressed.
+
+2. What is stored on your computer
+   - Your preferences (looks, sliders, schedule, shortcuts, sound options) are saved in
+     %APPDATA%\PaperGlass\settings.json. Nothing else is saved.
+   - If you use the app exceptions feature, the program names you add (for example vlc.exe) are saved
+     in that same file.
+   - To apply app exceptions, PaperGlass reads the name of the program that is in front. This happens
+     only on your computer, is not stored, and is not sent anywhere.
+
+3. Startup
+   - PaperGlass starts with Windows only if you ask it to (in the installer or in Settings). This adds
+     one entry named PaperGlass under your user's Windows startup list, which you can turn off at any
+     time in Settings or in Windows Settings > Apps > Startup.
+
+4. Removing PaperGlass
+   - The uninstaller removes the program and its startup entry, and asks whether to delete your
+     settings folder as well. Closing or removing PaperGlass immediately returns your display colours
+     to normal.
+
+5. Changes to this policy
+   - If a future version changes how your information is handled, this document will be updated and
+     shown again during installation.
+
+Terms of use
+   PaperGlass is provided "as is", without warranty of any kind. You use it at your own risk. It is
+   not a medical product and does not treat or prevent any eye or health condition. Take regular
+   breaks from screens.
