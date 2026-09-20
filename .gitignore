@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Build output
+build/
+build_ui/
+dist/
+dist_ui/
+installer/
+*.spec
+paperglass.ico
